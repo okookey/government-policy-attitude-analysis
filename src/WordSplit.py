@@ -5,7 +5,7 @@ import pandas as pd
 from pandas import DataFrame
 
 
-class WordSplitWithCloudPicture:
+class WordSplit:
 
     def read_file(self, path: str) -> str:
         p = ""

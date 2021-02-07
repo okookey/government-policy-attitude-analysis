@@ -6,7 +6,7 @@
 import baostock as bs
 
 
-import JiebaTest as jt
+import WordSplit as jt
 import MakeWordCloud as mw
 
 def bs_login():
@@ -46,7 +46,7 @@ if __name__ == '__main__':
     # plt.plot(result.reset_index()["date"],result.reset_index()["close"],"b--")
     # plt.show()
 
-    ttt = jt.WordSplitWithCloudPicture()
+    ttt = jt.WordSplit()
     srcName = "2020-11-13.txt"
     fileName = "2020-11-13.csv"
     return_dict = ttt.jieba_start(
